@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+h1
+h2
+h3
+h4
+h5
+h6
+p{
+    margin-bottom: 16px;
+}
+
+@font-face {
+    font-family:Roboto-Light;
+    src: url(fonts/Roboto/Roboto-Light.ttf);
+}
+@font-face{
+    font-family: Roboto-BI;
+    src: url(fonts/Roboto/Roboto-BoldItalic.ttf);
+}
+@font-face{
+    font-family: Roboto-B;
+    src: url(fonts/Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+    font-family:Lora-I;
+    src: url(fonts/Lora/Lora-Italic-VariableFont_wght.ttf);
+}
+nav{
+    height: 155px;
+    width: 1170px;
+    /* background-color: red; */
+    margin: 0 auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+
+nav.links {
+
+}
+nav .links a{
+text-decoration: none;
+font-size: 30px;
+text-transform: uppercase;
+margin-right: 50px;
+color: black;
+font-family: Roboto-Light;
+}
+nav .links a.active{
+    color: #EF767A;
+    font-family: Roboto-BI;
+}
+nav .links a.active2{
+    color: #EF767A;
+    font-family: Roboto-BI;
+}
+nav .links a.active3{
+    color: #EF767A;
+    font-family: Roboto-BI;
+}
+nav .links a.active4{
+    color: #EF767A;
+    font-family: Roboto-BI;
+}
+nav.logo{
+
+ }
+ nav .logo span {
+    font-size: 30px;
+    font-family: Roboto-B;
+    color: #EF767A;
+ }
+.SoapBottles{
+    width: 1805px;
+    height: 330px;
+    background-image: url(../images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.Paragraphs1{
+    display:flex;
+    justify-content: space-evenly
+}
+.left{
+    width:  513px;
+    height: 322px;
+    align-items: center;
+    margin-top: 137px;
+    font-family: Lora-I;
+    position: relative;
+}
+.right{
+    width: 513px;
+    height: 238px;
+    align-items: center;
+    margin-top: 179px;
+    font-family: Lora-I;
+}
+.content{
+    width:1805px;
+    min-height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+.content-center{
+    width: 100%;
+    height: 100%;
+}
+.owner-product{
+    width: 100%;
+    min-height: 100%;
+    margin: 0 auto 20px auto;
+    display: flex;
+
+}
+.owner-product .left1 {
+   width: 224px;
+   margin-top: 70px;
+   margin-left: 520px;
+}
+.owner-product .left1 .ManagerGirl{
+    width: 224px;
+    height: 224px;
+    border-radius: 50%;
+    background-image: url(../images/owner.jpg);
+    overflow:hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.owner-product.left1 .ManagerGirl{
+    width: 224px;
+    height: 224px;
+    border-radius: 50%;
+    overflow:hidden;
+    background-image: url(../images/owner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.TheCo-OwnerMargie{
+    width: 224px;
+    height: 224px;
+    border-radius: 50%;
+    overflow:hidden;
+    background-image: url(../images/co-owner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.TheOwner{
+    font-size: 30px;
+    font-family: Roboto-BI;
+    color: #EF767A;
+    margin-bottom: 39px;
+    position: relative;
+}
+.TheCo-Owner{
+    font-size: 30px;
+    font-family: Roboto-BI;
+    color: #EF767A;
+    margin-bottom: 39px;
+    position: relative;
+}
+
+.owner-product .right1 {
+    width: 513px;
+    padding-left: 80px;
+    margin-top: 110px;
+    font-family: Lora-I;
+    font-size: 18px;
+
+}
+.ButterAlmondSoap{
+    width: 224px;
+    height: 224px;
+    border-radius: 50%;
+    overflow:hidden;
+    background-image: url(../images/butter-almond-soap.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.ButterAlmondSoapFont{
+    font-size: 30px;
+    font-family: Roboto-BI;
+    color: #EF767A;
+    margin-bottom: 39px;
+}
+.Rose-GoldSoap{
+    width: 224px;
+    height: 224px;
+    border-radius: 50%;
+    overflow:hidden;
+    background-image: url(../images/rose-gold-soap.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.LuxurySoap{
+    width: 224px;
+    height: 224px;
+    border-radius: 50%;
+    overflow:hidden;
+    background-image: url(../images/luxury-soap.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.section1{
+    width: 1014px;
+    min-height: 81px;
+    margin-top:230px ;
+    margin-left: 230px;
+    
+}
+.textInputs{
+  margin-bottom: 87px;
+  border: solid 3px: #EF767A;
+}
+.textInputs label, input{
+display: block;
+width: 1014px;
+border: solid 3px: #EF767A;
+}
+.textInputs label, input{
+    margin-bottom: 29px;
+    font-family: Roboto-Light;
+    font-size: 30px;
+    color: #707070;
+     }
+
+.redastsk{
+    color: #EF767A;
+}
+.textInputs input{
+    width: 1014px;
+    height: 81px;
+    border: solid 3px;
+    color: #EF767A;
+    }
+
+.subBtn{
+    padding: 10px 60px;
+    background-color: #EF767A;
+    border-style: none ;
+    border-radius: 38px;
+    color: #F8F8F8;
+    font-family: Roboto-Light;
+    font-size: 30px;
+    width: 246px;
+    margin: 0 auto 0 auto;
+}
+
+ footer{height: 165px;
+    width: 100%;
+    /* background-color: red; */
+    background-color:#F8F8F8 ;
+    margin: 0 auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 300px;
+    position: relative;
+    }
+
+ footer .copyright{
+    font-size: 30px;
+    font-family: Roboto-Light;
+   
+    
+}
+footer .terms{
+    font-size: 30px;
+    font-family: Roboto-Light;
+    }
+
+.sideways{
+    width: 106px;
+    height: 603px;
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    margin-top: 90px;
+    
+}
+.sideways div{
+    transform: rotate(-90deg);
+    margin-top: 400px;
+    font-size: 80px;
+    font-family: Roboto-B;
+    color: #EF767A;
+    margin-bottom: 300px;
+   letter-spacing: 40px;
+}
